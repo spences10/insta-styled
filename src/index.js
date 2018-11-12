@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import App from './components/app'
 import * as serviceWorker from './serviceWorker'
 
 import {
   GalleryProvider,
   GalleryContext
-} from './contexts/GalleryContext'
+} from './contexts/galleryContext'
 
 const rootElement = document.getElementById('root')
 ReactDOM.render(
