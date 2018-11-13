@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+// 41 filters 🙃
 export const filters = {
   one977: `
     -webkit-filter: sepia(0.5) hue-rotate(-30deg) saturate(1.4);
@@ -13,7 +14,46 @@ export const filters = {
       content: '';
       mix-blend-mode: multiply;
     }
-  `
+  `,
+  amaro: ``,
+  ashby: ``,
+  brannan: ``,
+  brooklyn: ``,
+  charmes: ``,
+  clarendon: ``,
+  crema: ``,
+  dogpatch: ``,
+  earlybird: ``,
+  gingham: ``,
+  ginza: ``,
+  hefe: ``,
+  helena: ``,
+  hudson: ``,
+  inkwell: ``,
+  juno: ``,
+  kelvin: ``,
+  lark: ``,
+  lofi: ``,
+  ludwig: ``,
+  maven: ``,
+  mayfair: ``,
+  moon: ``,
+  nashville: ``,
+  perpetua: ``,
+  poprocket: ``,
+  reyes: ``,
+  rise: ``,
+  sierra: ``,
+  skyline: ``,
+  slumber: ``,
+  stinson: ``,
+  sutro: ``,
+  toaster: ``,
+  valencia: ``,
+  vesper: ``,
+  walden: ``,
+  willow: ``,
+  xproIi: ``
 }
 
 export const Filter1977 = styled.img`
