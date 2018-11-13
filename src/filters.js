@@ -2,10 +2,6 @@ import styled from 'styled-components'
 
 // 41 filters 🙃
 export const filters = {
-  one977: `
-    -webkit-filter: sepia(0.5) hue-rotate(-30deg) saturate(1.4);
-    filter: sepia(0.5) hue-rotate(-30deg) saturate(1.4);
-    `,
   aden: `
     -webkit-filter: sepia(0.2) brightness(1.15) saturate(1.4);
     filter: sepia(0.2) brightness(1.15) saturate(1.4);
@@ -340,6 +336,10 @@ export const filters = {
       mix-blend-mode: screen;
     }
   `,
+  nineteenSeventySeven: `
+    -webkit-filter: sepia(0.5) hue-rotate(-30deg) saturate(1.4);
+    filter: sepia(0.5) hue-rotate(-30deg) saturate(1.4);
+    `,
   perpetua: `
     -webkit-filter: contrast(1.1) brightness(1.25) saturate(1.1);
     filter: contrast(1.1) brightness(1.25) saturate(1.1);
