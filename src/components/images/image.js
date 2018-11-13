@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Filter1977 } from '../../filters'
+
 export default class Image extends React.Component {
   static propTypes = {
     image: PropTypes.object.isRequired
@@ -22,7 +24,11 @@ export default class Image extends React.Component {
             </div>
 
             <div className="half">
-              <a href={image.links.html} target="_blank">
+              <a
+                href={image.links.html}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View
               </a>
             </div>
@@ -34,13 +40,7 @@ export default class Image extends React.Component {
                 Liked {image.likes} times
               </div>
             </div>
-            <img
-              src={image.urls.small}
-              alt={description}
-              style={{
-                width: '100%'
-              }}
-            />
+            <Filter1977 src={image.urls.small} alt={description} />
           </div>
         </figure>
       </div>
