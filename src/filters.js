@@ -1,3 +1,4 @@
+/*! Instagram.css v0.1.3 | MIT License | github.com/picturepan2/instagram.css */
 import styled from 'styled-components'
 
 // 41 filters 🙃
