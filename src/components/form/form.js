@@ -14,7 +14,11 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <form className="form" onSubmit={this.onSubmit}>
+      <form
+        className="form"
+        onSubmit={this.onSubmit}
+        style={{ gridArea: 'header' }}
+      >
         <input
           type="text"
           ref={input => {
