@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Filter1977 } from '../../filters'
-
 export default class Image extends React.Component {
   static propTypes = {
     image: PropTypes.object.isRequired
@@ -40,7 +38,7 @@ export default class Image extends React.Component {
                 Liked {image.likes} times
               </div>
             </div>
-            <Filter1977 src={image.urls.small} alt={description} />
+            <img src={image.urls.small} alt={description} />
           </div>
         </figure>
       </div>

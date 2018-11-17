@@ -9,7 +9,7 @@ import { GlobalStyle } from './theme/globalStyle'
 
 export default class App extends React.Component {
   componentWillMount() {
-    this.props.fetchImages('Mountains')
+    this.props.fetchImages('Dogs')
   }
 
   render() {
