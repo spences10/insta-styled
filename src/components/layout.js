@@ -3,9 +3,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const AppStyles = styled.div`
-  background-color: #161e2d;
-  font-family: Poppins;
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
