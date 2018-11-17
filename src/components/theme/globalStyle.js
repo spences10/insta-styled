@@ -1,3 +1,5 @@
+import { createGlobalStyle } from 'styled-components'
+
 export const themes = {
   theme1: {
     primary: '#6e27c5',
