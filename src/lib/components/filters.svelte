@@ -40,25 +40,15 @@
 		'vesper',
 		'walden',
 		'willow',
-		'xpro-ii'
-	];
-  export let value=''
+		'xpro-ii',
+	]
+	export let value = ''
 </script>
 
-<div class="mb-8">
-  <select
-    data-choose-theme
-    class="select select-bordered select-primary w-full max-w-3xl text-xl"
-    bind:value={value}
-  >
-    <option disabled selected>
-      Choose a theme
-      </option>
-      {#each filtersList as filter}
-         
-         <option value={filter}>
-          <span style="text-transform:capitalize;">{filter}</span>
-        </option>
-      {/each}
-  </select>
-</div>
+<select bind:value>
+	{#each filtersList as filter}
+		<option value={filter}>
+			<span>{filter}</span>
+		</option>
+	{/each}
+</select>
