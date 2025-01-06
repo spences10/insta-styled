@@ -6,8 +6,6 @@
 
 <select bind:value>
 	{#each filtersList as filter}
-		<option value={filter}>
-			<span>{filter}</span>
-		</option>
+		<option value={filter}>{filter}</option>
 	{/each}
 </select>

@@ -3,7 +3,7 @@
 	import { filtersList } from '$lib/utils'
 	import '../instagram.css'
 
-	let optionValue = ''
+	let optionValue = $state('')
 </script>
 
 <figure class={`filter-${optionValue}`}>
