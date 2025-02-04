@@ -9,25 +9,25 @@ importers:
   .:
     devDependencies:
       '@eslint/compat':
-        specifier: ^1.2.5
+        specifier: ^1.2.6
         version: 1.2.6(eslint@9.19.0)
       '@eslint/js':
-        specifier: ^9.18.0
+        specifier: ^9.19.0
         version: 9.19.0
       '@playwright/test':
-        specifier: ^1.49.1
+        specifier: ^1.50.1
         version: 1.50.1
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
         version: 4.0.0(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.7)(vite@6.0.11))(svelte@5.19.7)(vite@6.0.11))
       '@sveltejs/kit':
-        specifier: ^2.16.0
+        specifier: ^2.17.1
         version: 2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.7)(vite@6.0.11))(svelte@5.19.7)(vite@6.0.11)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^5.0.0
+        specifier: ^5.0.3
         version: 5.0.3(svelte@5.19.7)(vite@6.0.11)
       eslint:
-        specifier: ^9.18.0
+        specifier: ^9.19.0
         version: 9.19.0
       eslint-config-prettier:
         specifier: ^10.0.1
@@ -45,22 +45,22 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3(prettier@3.4.2)(svelte@5.19.7)
       svelte:
-        specifier: ^5.0.0
+        specifier: ^5.19.7
         version: 5.19.7
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.1.4
         version: 4.1.4(svelte@5.19.7)(typescript@5.7.3)
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.7.3
         version: 5.7.3
       typescript-eslint:
-        specifier: ^8.20.0
+        specifier: ^8.23.0
         version: 8.23.0(eslint@9.19.0)(typescript@5.7.3)
       vite:
-        specifier: ^6.0.0
+        specifier: ^6.0.11
         version: 6.0.11
       vitest:
-        specifier: ^3.0.0
+        specifier: ^3.0.5
         version: 3.0.5
 
 packages:
