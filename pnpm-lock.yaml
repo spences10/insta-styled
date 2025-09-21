@@ -34,7 +34,7 @@ importers:
         version: 10.1.8(eslint@9.36.0)
       eslint-plugin-svelte:
         specifier: ^3.12.3
-        version: 3.12.3(eslint@9.36.0)(svelte@5.39.2)
+        version: 3.12.4(eslint@9.36.0)(svelte@5.39.2)
       globals:
         specifier: ^16.4.0
         version: 16.4.0
@@ -220,12 +220,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
-
-  '@eslint-community/eslint-utils@4.7.0':
-    resolution: {integrity: sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
   '@eslint-community/eslint-utils@4.9.0':
     resolution: {integrity: sha512-ayVFHdtZ+hsq1t2Dy24wCmGXGe4q9Gu3smhLYALJrr473ZH27MsnSL+LKUlimp4BWJqMDMLmPpx/Q9R3OAlL4g==}
@@ -714,8 +708,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-svelte@3.12.3:
-    resolution: {integrity: sha512-YVNhKsHZeXVvsjZcSMjnce9gO31frICu453p5JjFiXNszHoG9k8WvsA/LAoLi4K8T69G7DIrgg1AqasDJLpgoQ==}
+  eslint-plugin-svelte@3.12.4:
+    resolution: {integrity: sha512-hD7wPe+vrPgx3U2X2b/wyTMtWobm660PygMGKrWWYTc9lvtY8DpNFDaU2CJQn1szLjGbn/aJ3g8WiXuKakrEkw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -1174,8 +1168,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte-eslint-parser@1.3.0:
-    resolution: {integrity: sha512-VCgMHKV7UtOGcGLGNFSbmdm6kEKjtzo5nnpGU/mnx4OsFY6bZ7QwRF5DUx+Hokw5Lvdyo8dpk8B1m8mliomrNg==}
+  svelte-eslint-parser@1.3.3:
+    resolution: {integrity: sha512-oTrDR8Z7Wnguut7QH3YKh7JR19xv1seB/bz4dxU5J/86eJtZOU4eh0/jZq4dy6tAlz/KROxnkRQspv5ZEt7t+Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       svelte: ^3.37.0 || ^4.0.0 || ^5.0.0
@@ -1435,11 +1429,6 @@ snapshots:
   '@esbuild/win32-x64@0.25.8':
     optional: true
 
-  '@eslint-community/eslint-utils@4.7.0(eslint@9.36.0)':
-    dependencies:
-      eslint: 9.36.0
-      eslint-visitor-keys: 3.4.3
-
   '@eslint-community/eslint-utils@4.9.0(eslint@9.36.0)':
     dependencies:
       eslint: 9.36.0
@@ -1520,7 +1509,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.29':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1742,7 +1731,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.44.0(eslint@9.36.0)(typescript@5.9.2)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.36.0)
+      '@eslint-community/eslint-utils': 4.9.0(eslint@9.36.0)
       '@typescript-eslint/scope-manager': 8.44.0
       '@typescript-eslint/types': 8.44.0
       '@typescript-eslint/typescript-estree': 8.44.0(typescript@5.9.2)
@@ -1930,9 +1919,9 @@ snapshots:
     dependencies:
       eslint: 9.36.0
 
-  eslint-plugin-svelte@3.12.3(eslint@9.36.0)(svelte@5.39.2):
+  eslint-plugin-svelte@3.12.4(eslint@9.36.0)(svelte@5.39.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.36.0)
+      '@eslint-community/eslint-utils': 4.9.0(eslint@9.36.0)
       '@jridgewell/sourcemap-codec': 1.5.5
       eslint: 9.36.0
       esutils: 2.0.3
@@ -1942,7 +1931,7 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.6)
       postcss-safe-parser: 7.0.1(postcss@8.5.6)
       semver: 7.7.2
-      svelte-eslint-parser: 1.3.0(svelte@5.39.2)
+      svelte-eslint-parser: 1.3.3(svelte@5.39.2)
     optionalDependencies:
       svelte: 5.39.2
     transitivePeerDependencies:
@@ -2362,7 +2351,7 @@ snapshots:
     transitivePeerDependencies:
       - picomatch
 
-  svelte-eslint-parser@1.3.0(svelte@5.39.2):
+  svelte-eslint-parser@1.3.3(svelte@5.39.2):
     dependencies:
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
